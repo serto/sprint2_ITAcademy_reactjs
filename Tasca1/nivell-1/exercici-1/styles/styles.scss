@@ -1,0 +1,7 @@
+//new variables for bootstrap
+@import './sass/redefineVariables';
+//import bootstrap
+@import '../node_modules/bootstrap/scss/bootstrap';
+//styles
+@import './sass/changesBootstrap';
+@import './sass/_common';
