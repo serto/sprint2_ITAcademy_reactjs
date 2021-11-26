@@ -1,0 +1,43 @@
+.tabsMod {
+    .nav {
+        border-bottom: 1px solid $gray-400;
+        width: 65%;
+        margin: 0 auto;
+        @media (max-width: 768px) {
+            width: 70%;
+        }
+        @media (max-width: 576px) {
+            width: 100%;
+            border-bottom: none;
+        }
+    }
+    .nav-item {
+        @media (max-width: 576px) {
+            width: 100%;
+            border-bottom: 1px solid $gray-400;
+        }
+        &:first-child {
+            @media (max-width: 576px) {
+                border-top: 1px solid $gray-400;
+            }
+        }
+        .nav-link {
+            text-align: center;
+            margin: 0 auto;
+        }
+    }
+    .nav-link {
+        color: $gray-600;
+        border-radius: 0;
+        &:hover {
+            color: $danger;
+        }
+        &.active {
+            color: $gray-600;
+            background-color: inherit;
+            font-weight: bold;
+            border-bottom: 2px solid $danger;
+        }
+        @media (max-width: 576px) {}
+    }
+}
