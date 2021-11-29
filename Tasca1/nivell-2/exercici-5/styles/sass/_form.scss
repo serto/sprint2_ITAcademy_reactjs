@@ -1,0 +1,16 @@
+.formFooter {
+    .btn {
+        color: white;
+        width: 100%;
+    }
+}
+
+.valid-feedback {
+    background-color: $success;
+    @include messagesForm__format;
+}
+
+.invalid-feedback {
+    background-color: $danger;
+    @include messagesForm__format;
+}

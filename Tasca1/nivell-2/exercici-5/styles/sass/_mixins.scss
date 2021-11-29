@@ -1,0 +1,8 @@
+@mixin messagesForm__format {
+    color: white !important;
+    font-size: 0.7rem;
+    padding: 6px 6px 2px;
+    margin-top: -3px;
+    border-radius: 0 0 6px 6px;
+    font-style: italic;
+}
