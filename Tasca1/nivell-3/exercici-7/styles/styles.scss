@@ -1,0 +1,13 @@
+//new variables for bootstrap
+@import './sass/redefineVariables';
+//import bootstrap
+@import '../node_modules/bootstrap/scss/bootstrap';
+//mixins
+@import './sass/mixins';
+//styles
+@import './sass/changesBootstrap';
+@import './sass/common';
+@import './sass/tabsMod';
+@import './sass/card';
+@import './sass/form';
+@import './sass/footerStyles';
