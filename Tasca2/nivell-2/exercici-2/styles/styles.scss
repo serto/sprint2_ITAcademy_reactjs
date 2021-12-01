@@ -1,0 +1,9 @@
+//new variables for bootstrap
+@import './sass/redefineVariables';
+//import bootstrap
+@import '../node_modules/bootstrap/scss/bootstrap';
+//import sass
+@import './sass/nav';
+@import './sass/blockHeader';
+@import './sass/card';
+@import './sass/footer';

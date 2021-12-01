@@ -1,0 +1,31 @@
+.firstBlock {
+    padding-top: 6rem;
+}
+
+.destacado__img {
+    position: relative;
+    opacity: 0.4;
+}
+
+.blockKnow {
+    border-top: 1px solid $gray-200;
+    border-bottom: 1px solid $gray-200;
+    padding: 3rem 0.5rem !important;
+}
+
+.conocimientos {
+    columns: 2;
+    -webkit-columns: 2;
+    -moz-columns: 2;
+    padding: 0;
+    li {
+        background: url('../images/check.png') 0 0 no-repeat;
+        list-style: none;
+        color: #fff;
+        padding: 0 0 0 40px;
+        height: 34px;
+        display: flex;
+        align-items: center;
+        margin-bottom: 8px;
+    }
+}
