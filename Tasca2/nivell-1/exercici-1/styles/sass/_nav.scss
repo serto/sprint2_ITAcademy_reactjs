@@ -1,0 +1,24 @@
+.navbar-dark {
+    .navbar-nav .nav-link {
+        color: #FFF;
+        font-size: 0.85rem;
+        @media (max-width: 768px) {
+            text-align: right;
+        }
+    }
+    .navbar-toggler {
+        border: none;
+    }
+}
+
+.navbar-expand-md .navbar-collapse {
+    flex-grow: initial;
+}
+
+.nav-item {
+    .btn {
+        @media (max-width: 768px) {
+        margin-bottom: 8px;
+        }
+    }
+}
