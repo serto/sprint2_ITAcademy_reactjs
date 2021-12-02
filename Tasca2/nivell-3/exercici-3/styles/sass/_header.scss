@@ -1,0 +1,61 @@
+.logo {
+    text-indent: -99999px;
+    width: 180px;
+    height: 76px;
+    background-image: url('../images/Netflix_Logo_PMS.png');
+    background-size: cover;
+}
+
+.selectLangContainer {
+    position: relative;
+    margin-right: 8px;
+    @media (max-width: 576px) {
+        margin-right: 0;
+        margin-bottom: 8px;
+    }
+    &.menuLang {
+        display: flex;
+        justify-content: flex-end;
+        .iconLang {
+            @media (max-width: 576px) {
+                left: initial;
+                right: 96px;
+            }
+        }
+    }
+    .iconLang {
+        position: absolute;
+        top: 6px;
+        left: 6px;
+        background-image: url('../images/lang.svg');
+        background-repeat: no-repeat;
+        display: block;
+        width: 20px;
+        height: 20px;
+    }
+}
+
+.selectLang {
+    border-radius: 0;
+    font-size: 0.875rem;
+    width: 125px;
+    background-color: transparent;
+    color: #FFF;
+    background-image: url('../images/arrowD.svg');
+    text-align: right;
+    padding: 0.25rem 2.25rem 0.25rem 0.75rem;
+}
+
+.navbar-expand-md .navbar-collapse {
+    flex-grow: initial;
+}
+
+.navbar-light .navbar-toggler {
+    border-color: #FFF;
+}
+
+.navbar-light .navbar-toggler-icon {
+    background-image: url('../images/burger.svg');
+}
+
+//.navbar-expand-md .navbar-collapse.show {}

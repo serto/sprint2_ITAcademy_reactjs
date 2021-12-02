@@ -1,0 +1,12 @@
+//new variables for bootstrap
+@import './sass/redefineVariables';
+//import bootstrap
+@import '../node_modules/bootstrap/scss/bootstrap';
+//import sass
+@import './sass/titles';
+@import './sass/header';
+@import './sass/blockDestacado';
+@import './sass/info';
+@import './sass/faq';
+@import './sass/accordion';
+@import './sass/footer';
